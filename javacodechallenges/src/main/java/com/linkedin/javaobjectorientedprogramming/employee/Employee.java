@@ -4,16 +4,22 @@ public class Employee {
 
   private String name;
   private int age;
-  private double salary;
+  protected double salary;
   private String location; 
 
-  public Employee(String name,  int age, double salary, String location) {
+  public Employee(String name,  double salary, int age, String location) {
 
     this.name = name;
-    this.age = age;
     this.salary = salary;
+    this.age = age;
     this.location = location;
 
+  }
+
+  public Employee(String name,  double salary, int age) {
+    this.name = name;
+    this.salary = salary;
+    this.age = age;
   }
 
   public void raiseSalary() {
