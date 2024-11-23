@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.linkedin.javaobjectorientedprogramming.tree.Main",
+      "projectName": "javacodechallenges"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.linkedin.javaobjectorientedprogramming.employee.Main",
+      "projectName": "javacodechallenges"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "com.linkedin.javaobjectorientedprogramming.Main",
+      "projectName": "javacodechallenges"
+    },
+    {
+      "type": "java",
       "name": "Application",
       "request": "launch",
       "mainClass": "com.linkedin.javacollections.Application",
