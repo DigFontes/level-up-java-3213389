@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "com.linkedin.javaobjectorientedprogramming.Polymorphism.Main",
+      "projectName": "javacodechallenges"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "com.linkedin.javaobjectorientedprogramming.inheritanceexam.Main",
       "projectName": "javacodechallenges"
     },
